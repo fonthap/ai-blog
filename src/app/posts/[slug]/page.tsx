@@ -36,6 +36,9 @@ export default async function PostPage({ params }: PostPageProps) {
               ))}
             </div>
           )}
+          {post.cover && (
+            <img src={post.cover} alt={post.title} className="w-full rounded-lg mt-6 object-cover max-h-96" />
+          )}
         </header>
         <div
           className="prose mt-8"

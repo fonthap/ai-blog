@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" fill="none">
+  <rect width="800" height="250" rx="16" fill="#0f172a"/>
+  <text x="400" y="40" text-anchor="middle" fill="#e2e8f0" font-family="system-ui" font-size="20" font-weight="700">Spec-Driven Workflow: Think → Build → Check</text>
+  <!-- Phase 1 -->
+  <rect x="40" y="70" width="220" height="140" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+  <text x="150" y="100" text-anchor="middle" fill="#6366f1" font-family="system-ui" font-size="16" font-weight="700">📋 Phase 1: SPEC</text>
+  <text x="150" y="125" text-anchor="middle" fill="#94a3b8" font-family="system-ui" font-size="12">Plan before coding</text>
+  <text x="150" y="148" text-anchor="middle" fill="#cbd5e1" font-family="system-ui" font-size="11">• Define what to build</text>
+  <text x="150" y="166" text-anchor="middle" fill="#cbd5e1" font-family="system-ui" font-size="11">• List edge cases</text>
+  <text x="150" y="184" text-anchor="middle" fill="#cbd5e1" font-family="system-ui" font-size="11">• Plan tests upfront</text>
+  <!-- Arrow 1 -->
+  <text x="280" y="145" fill="#475569" font-family="system-ui" font-size="30">→</text>
+  <!-- Phase 2 -->
+  <rect x="300" y="70" width="220" height="140" rx="12" fill="#1e293b" stroke="#059669" stroke-width="2"/>
+  <text x="410" y="100" text-anchor="middle" fill="#059669" font-family="system-ui" font-size="16" font-weight="700">🔨 Phase 2: BUILD</text>
+  <text x="410" y="125" text-anchor="middle" fill="#94a3b8" font-family="system-ui" font-size="12">Implement the spec</text>
+  <text x="410" y="148" text-anchor="middle" fill="#cbd5e1" font-family="system-ui" font-size="11">• Write minimal code</text>
+  <text x="410" y="166" text-anchor="middle" fill="#cbd5e1" font-family="system-ui" font-size="11">• Follow existing patterns</text>
+  <text x="410" y="184" text-anchor="middle" fill="#cbd5e1" font-family="system-ui" font-size="11">• No extras or over-engineering</text>
+  <!-- Arrow 2 -->
+  <text x="540" y="145" fill="#475569" font-family="system-ui" font-size="30">→</text>
+  <!-- Phase 3 -->
+  <rect x="560" y="70" width="220" height="140" rx="12" fill="#1e293b" stroke="#d97706" stroke-width="2"/>
+  <text x="670" y="100" text-anchor="middle" fill="#d97706" font-family="system-ui" font-size="16" font-weight="700">✅ Phase 3: VERIFY</text>
+  <text x="670" y="125" text-anchor="middle" fill="#94a3b8" font-family="system-ui" font-size="12">Test and self-review</text>
+  <text x="670" y="148" text-anchor="middle" fill="#cbd5e1" font-family="system-ui" font-size="11">• Run all tests</text>
+  <text x="670" y="166" text-anchor="middle" fill="#cbd5e1" font-family="system-ui" font-size="11">• Check against spec</text>
+  <text x="670" y="184" text-anchor="middle" fill="#cbd5e1" font-family="system-ui" font-size="11">• Senior engineer review</text>
+  <!-- Bottom tagline -->
+  <text x="400" y="235" text-anchor="middle" fill="#64748b" font-family="system-ui" font-size="13" font-style="italic">Every agent follows this pattern — consistent quality across the whole team</text>
+</svg>

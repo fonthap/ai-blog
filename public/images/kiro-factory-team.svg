@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" rx="16" fill="#0f172a"/>
+  <!-- Title -->
+  <text x="400" y="45" text-anchor="middle" fill="#e2e8f0" font-family="system-ui" font-size="22" font-weight="700">Kiro Factory — Your AI Software Team</text>
+  <!-- PO (center) -->
+  <rect x="310" y="70" width="180" height="60" rx="12" fill="#6366f1"/>
+  <text x="400" y="100" text-anchor="middle" fill="white" font-family="system-ui" font-size="15" font-weight="600">🎯 Product Owner</text>
+  <text x="400" y="118" text-anchor="middle" fill="#c7d2fe" font-family="system-ui" font-size="11">Orchestrator</text>
+  <!-- Agents row -->
+  <rect x="20" y="180" width="140" height="70" rx="10" fill="#2563eb"/>
+  <text x="90" y="210" text-anchor="middle" fill="white" font-family="system-ui" font-size="13" font-weight="600">🖥️ Frontend</text>
+  <text x="90" y="228" text-anchor="middle" fill="#bfdbfe" font-family="system-ui" font-size="10">UI &amp; Design</text>
+  <rect x="175" y="180" width="140" height="70" rx="10" fill="#059669"/>
+  <text x="245" y="210" text-anchor="middle" fill="white" font-family="system-ui" font-size="13" font-weight="600">⚙️ Backend</text>
+  <text x="245" y="228" text-anchor="middle" fill="#a7f3d0" font-family="system-ui" font-size="10">APIs &amp; Logic</text>
+  <rect x="330" y="180" width="140" height="70" rx="10" fill="#d97706"/>
+  <text x="400" y="210" text-anchor="middle" fill="white" font-family="system-ui" font-size="13" font-weight="600">🚀 DevOps</text>
+  <text x="400" y="228" text-anchor="middle" fill="#fde68a" font-family="system-ui" font-size="10">Deploy &amp; Infra</text>
+  <rect x="485" y="180" width="140" height="70" rx="10" fill="#dc2626"/>
+  <text x="555" y="210" text-anchor="middle" fill="white" font-family="system-ui" font-size="13" font-weight="600">🧪 QA</text>
+  <text x="555" y="228" text-anchor="middle" fill="#fecaca" font-family="system-ui" font-size="10">Testing</text>
+  <rect x="640" y="180" width="140" height="70" rx="10" fill="#7c3aed"/>
+  <text x="710" y="210" text-anchor="middle" fill="white" font-family="system-ui" font-size="13" font-weight="600">🔒 Security</text>
+  <text x="710" y="228" text-anchor="middle" fill="#ddd6fe" font-family="system-ui" font-size="10">Protection</text>
+  <!-- Lines from PO to agents -->
+  <line x1="340" y1="130" x2="90" y2="180" stroke="#475569" stroke-width="2"/>
+  <line x1="370" y1="130" x2="245" y2="180" stroke="#475569" stroke-width="2"/>
+  <line x1="400" y1="130" x2="400" y2="180" stroke="#475569" stroke-width="2"/>
+  <line x1="430" y1="130" x2="555" y2="180" stroke="#475569" stroke-width="2"/>
+  <line x1="460" y1="130" x2="710" y2="180" stroke="#475569" stroke-width="2"/>
+  <!-- Workflow arrow -->
+  <text x="400" y="295" text-anchor="middle" fill="#94a3b8" font-family="system-ui" font-size="14" font-weight="600">The Workflow</text>
+  <rect x="50" y="315" width="130" height="45" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="115" y="342" text-anchor="middle" fill="#e2e8f0" font-family="system-ui" font-size="12">📝 You describe</text>
+  <text x="200" y="340" fill="#475569" font-family="system-ui" font-size="20">→</text>
+  <rect x="220" y="315" width="130" height="45" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="285" y="342" text-anchor="middle" fill="#e2e8f0" font-family="system-ui" font-size="12">🎯 PO plans</text>
+  <text x="370" y="340" fill="#475569" font-family="system-ui" font-size="20">→</text>
+  <rect x="390" y="315" width="130" height="45" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="455" y="342" text-anchor="middle" fill="#e2e8f0" font-family="system-ui" font-size="12">👥 Team builds</text>
+  <text x="540" y="340" fill="#475569" font-family="system-ui" font-size="20">→</text>
+  <rect x="560" y="315" width="130" height="45" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="625" y="342" text-anchor="middle" fill="#e2e8f0" font-family="system-ui" font-size="12">✅ You review</text>
+</svg>

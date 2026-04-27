@@ -8,6 +8,7 @@ export interface Post {
   date: string;
   summary: string;
   tags: string[];
+  cover?: string;
   contentHtml: string;
 }
 
@@ -29,7 +30,7 @@ export async function getPostBySlug(slug: string): Promise<Post> {
   const { remark } = await import("remark");
   const remarkHtml = (await import("remark-html")).default;
 
-  const result = await remark().use(remarkHtml).process(content);
+  const result = await remark().use(remarkHtml, { sanitize: false }).process(content);
 
   return {
     slug,
@@ -37,6 +38,7 @@ export async function getPostBySlug(slug: string): Promise<Post> {
     date: data.date ?? "",
     summary: data.summary ?? "",
     tags: data.tags ?? [],
+    cover: data.cover ?? undefined,
     contentHtml: result.toString(),
   };
 }

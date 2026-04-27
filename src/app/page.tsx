@@ -19,6 +19,11 @@ export default async function HomePage() {
       <ul className="mt-8 space-y-8">
         {posts.map((post) => (
           <li key={post.slug} className="border-b border-foreground/10 pb-8 last:border-0">
+            {post.cover && (
+              <Link href={`/posts/${post.slug}`}>
+                <img src={post.cover} alt={post.title} className="w-full rounded-lg mb-4 object-cover max-h-64" />
+              </Link>
+            )}
             <Link href={`/posts/${post.slug}`} className="text-xl font-semibold hover:underline">
               {post.title}
             </Link>

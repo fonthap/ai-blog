@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" fill="none">
+  <rect width="800" height="280" rx="16" fill="#0f172a"/>
+  <text x="400" y="40" text-anchor="middle" fill="#e2e8f0" font-family="system-ui" font-size="20" font-weight="700">Real Example: Building a Feature</text>
+  <text x="400" y="62" text-anchor="middle" fill="#64748b" font-family="system-ui" font-size="13">"Add a health check endpoint with status page"</text>
+  <!-- Parallel track -->
+  <rect x="40" y="85" width="160" height="55" rx="10" fill="#059669"/>
+  <text x="120" y="110" text-anchor="middle" fill="white" font-family="system-ui" font-size="13" font-weight="600">⚙️ Backend</text>
+  <text x="120" y="128" text-anchor="middle" fill="#a7f3d0" font-family="system-ui" font-size="10">builds /api/health</text>
+  <rect x="40" y="155" width="160" height="55" rx="10" fill="#2563eb"/>
+  <text x="120" y="180" text-anchor="middle" fill="white" font-family="system-ui" font-size="13" font-weight="600">🖥️ Frontend</text>
+  <text x="120" y="198" text-anchor="middle" fill="#bfdbfe" font-family="system-ui" font-size="10">builds status indicator</text>
+  <!-- Parallel label -->
+  <text x="120" y="240" text-anchor="middle" fill="#6366f1" font-family="system-ui" font-size="12" font-weight="600">⚡ In Parallel</text>
+  <!-- Arrow -->
+  <line x1="210" y1="140" x2="290" y2="140" stroke="#475569" stroke-width="2" stroke-dasharray="6,4"/>
+  <polygon points="290,135 300,140 290,145" fill="#475569"/>
+  <!-- QA -->
+  <rect x="310" y="112" width="160" height="55" rx="10" fill="#dc2626"/>
+  <text x="390" y="137" text-anchor="middle" fill="white" font-family="system-ui" font-size="13" font-weight="600">🧪 QA</text>
+  <text x="390" y="155" text-anchor="middle" fill="#fecaca" font-family="system-ui" font-size="10">tests everything</text>
+  <text x="390" y="240" text-anchor="middle" fill="#dc2626" font-family="system-ui" font-size="12" font-weight="600">⏳ Waits for both</text>
+  <!-- Arrow -->
+  <line x1="480" y1="140" x2="560" y2="140" stroke="#475569" stroke-width="2" stroke-dasharray="6,4"/>
+  <polygon points="560,135 570,140 560,145" fill="#475569"/>
+  <!-- Result -->
+  <rect x="580" y="100" width="180" height="80" rx="12" fill="#1e293b" stroke="#22c55e" stroke-width="2"/>
+  <text x="670" y="130" text-anchor="middle" fill="#22c55e" font-family="system-ui" font-size="15" font-weight="700">✅ Done!</text>
+  <text x="670" y="152" text-anchor="middle" fill="#94a3b8" font-family="system-ui" font-size="11">API + UI + Tests</text>
+  <text x="670" y="168" text-anchor="middle" fill="#94a3b8" font-family="system-ui" font-size="11">All verified &amp; integrated</text>
+  <text x="670" y="240" text-anchor="middle" fill="#22c55e" font-family="system-ui" font-size="12" font-weight="600">🎉 Ready to ship</text>
+</svg>
