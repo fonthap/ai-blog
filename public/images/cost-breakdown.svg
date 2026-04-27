@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" fill="none">
+  <rect width="800" height="350" rx="16" fill="#0f172a"/>
+  <text x="400" y="40" text-anchor="middle" fill="#e2e8f0" font-family="system-ui" font-size="20" font-weight="700">Total Cost: 2 Apps Built &amp; Deployed</text>
+  <!-- Big number -->
+  <text x="400" y="100" text-anchor="middle" fill="#22c55e" font-family="system-ui" font-size="56" font-weight="800">$0.91</text>
+  <text x="400" y="125" text-anchor="middle" fill="#64748b" font-family="system-ui" font-size="16">≈ ฿31 THB</text>
+  <!-- Bar chart -->
+  <text x="60" y="170" fill="#94a3b8" font-family="system-ui" font-size="12" font-weight="600">Cost per task:</text>
+  <!-- Todo App -->
+  <text x="60" y="198" fill="#cbd5e1" font-family="system-ui" font-size="11">Todo App (5 agents)</text>
+  <rect x="230" y="187" width="280" height="16" rx="4" fill="#6366f1"/>
+  <text x="520" y="199" fill="#94a3b8" font-family="system-ui" font-size="11">$0.38</text>
+  <!-- AI Blog -->
+  <text x="60" y="224" fill="#cbd5e1" font-family="system-ui" font-size="11">AI Blog (2 agents)</text>
+  <rect x="230" y="213" width="190" height="16" rx="4" fill="#2563eb"/>
+  <text x="430" y="225" fill="#94a3b8" font-family="system-ui" font-size="11">$0.24</text>
+  <!-- Security fix -->
+  <text x="60" y="250" fill="#cbd5e1" font-family="system-ui" font-size="11">Security fix (2 agents)</text>
+  <rect x="230" y="239" width="100" height="16" rx="4" fill="#059669"/>
+  <text x="340" y="251" fill="#94a3b8" font-family="system-ui" font-size="11">$0.12</text>
+  <!-- Health check -->
+  <text x="60" y="276" fill="#cbd5e1" font-family="system-ui" font-size="11">Health check (3 agents)</text>
+  <rect x="230" y="265" width="120" height="16" rx="4" fill="#d97706"/>
+  <text x="360" y="277" fill="#94a3b8" font-family="system-ui" font-size="11">$0.14</text>
+  <!-- Blog post -->
+  <text x="60" y="302" fill="#cbd5e1" font-family="system-ui" font-size="11">Blog post + images</text>
+  <rect x="230" y="291" width="30" height="16" rx="4" fill="#dc2626"/>
+  <text x="270" y="303" fill="#94a3b8" font-family="system-ui" font-size="11">$0.03</text>
+  <!-- Comparison -->
+  <line x1="620" y1="165" x2="620" y2="320" stroke="#334155" stroke-width="1"/>
+  <text x="710" y="185" text-anchor="middle" fill="#94a3b8" font-family="system-ui" font-size="12" font-weight="600">For comparison:</text>
+  <text x="710" y="215" text-anchor="middle" fill="#fbbf24" font-family="system-ui" font-size="13">☕ Coffee: $4</text>
+  <text x="710" y="245" text-anchor="middle" fill="#fbbf24" font-family="system-ui" font-size="13">🍜 Lunch: $3</text>
+  <text x="710" y="275" text-anchor="middle" fill="#22c55e" font-family="system-ui" font-size="13" font-weight="700">🤖 2 Apps: $0.91</text>
+</svg>
