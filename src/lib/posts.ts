@@ -28,9 +28,10 @@ export async function getPostBySlug(slug: string): Promise<Post> {
   const { data, content } = matter(fileContents);
 
   const { remark } = await import("remark");
+  const remarkGfm = (await import("remark-gfm")).default;
   const remarkHtml = (await import("remark-html")).default;
 
-  const result = await remark().use(remarkHtml, { sanitize: false }).process(content);
+  const result = await remark().use(remarkGfm).use(remarkHtml, { sanitize: false }).process(content);
 
   return {
     slug,

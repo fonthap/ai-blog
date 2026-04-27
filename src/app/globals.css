@@ -116,3 +116,27 @@ body {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 0.9em;
+}
+
+.prose th,
+.prose td {
+  border: 1px solid color-mix(in srgb, var(--foreground) 20%, transparent);
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+
+.prose th {
+  font-weight: 600;
+  background: color-mix(in srgb, var(--foreground) 6%, transparent);
+}
+
+.prose tr:nth-child(even) {
+  background: color-mix(in srgb, var(--foreground) 3%, transparent);
+}
