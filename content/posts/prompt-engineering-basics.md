@@ -47,7 +47,7 @@ The difference? Context, audience, format, and constraints.
 2. **Give examples** — Show the AI what good output looks like
 3. **Set constraints** — Word count, format, language, what to exclude
 4. **Assign a role** — "You are a senior TypeScript developer" changes the output quality
-5. **Iterate** — First response not great? Refine, don't restart
+5. **Iterate** — First response isn't great? Refine, don't restart
 
 ## The Meta Lesson
 
