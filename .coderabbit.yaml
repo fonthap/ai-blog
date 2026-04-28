@@ -1,0 +1,48 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+language: en
+enable_free_tier: true
+reviews:
+  profile: chill
+  request_changes_workflow: false
+  high_level_summary: true
+  poem: false
+  collapse_walkthrough: false
+  changed_files_summary: true
+  path_filters:
+    - "!node_modules/**"
+    - "!.next/**"
+    - "!out/**"
+    - "!package-lock.json"
+  path_instructions:
+    - path: "content/posts/**"
+      instructions: >-
+        These are blog post markdown files. Review for:
+        1. Spelling and grammar
+        2. Frontmatter completeness (title, date, summary, tags required)
+        3. Broken image references
+        4. Markdown formatting issues
+    - path: "src/**/*.tsx"
+      instructions: >-
+        Next.js App Router components. Review for:
+        1. TypeScript types (no `any`)
+        2. Accessibility (semantic HTML, ARIA)
+        3. Proper use of server vs client components
+    - path: "src/**/*.ts"
+      instructions: >-
+        TypeScript utility code. Review for:
+        1. Proper error handling
+        2. Type safety
+        3. Edge cases
+  auto_review:
+    enabled: true
+    auto_incremental_review: true
+    drafts: false
+    base_branches:
+      - main
+  tools:
+    markdownlint:
+      enabled: true
+    eslint:
+      enabled: true
+chat:
+  auto_reply: true
