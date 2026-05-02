@@ -177,7 +177,7 @@ Open `http://localhost:9000` and you get a full dashboard.
 - You want **Quality Gates** — block PRs that don't meet standards
 - You care about **code smells and duplication** — not just bugs
 - You have a **team** that needs shared visibility into code quality
-- You can **host a server** — or use SonarCloud for hosted option
+- You can **host a server** — or use SonarCloud for a hosted option
 
 ### Use Both:
 
